@@ -3,12 +3,12 @@ package cz.educanet.praha;
 import java.util.Scanner;
 
 public class SumSumsOfEvenAndMultipleOfOdd {
-    public static int sudy;
-    public static int lichy;
+
 
 
     public static int sumSumsOfEvenAndMultipleOfOdd(Scanner scanner) {
-
+         int sudy = 0;
+         int lichy = 0;
 
         while (scanner.hasNext()) {
             int mezicast = scanner.nextInt();
